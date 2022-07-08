@@ -7,7 +7,6 @@ int main(){
   Tree * tree = (Tree * )malloc(sizeof(Tree));
   Data data=10;
   InitialiseTree(tree);
- // AddDataIntoTree(tree,data);
- printf("ok\n");
+  AddDataIntoTree(tree,data);
   return 0;
 }
