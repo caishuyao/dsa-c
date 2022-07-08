@@ -4,7 +4,7 @@
 #include "tree.h"
 
 int main(){
-  Tree * tree;
+  Tree * tree = (Tree * )malloc(sizeof(Tree));
   Data data=10;
   InitialiseTree(tree);
  // AddDataIntoTree(tree,data);
